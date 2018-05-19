@@ -1,7 +1,8 @@
 sudo adduser --disabled-password --system --no-create-home --gecos "Ombi Service" --group ombi
-sudo wget -t 0 -T 15 -P /opt -O Ombi.zip $( curl -s https://api.github.com/repos/tidusjar/Ombi/releases/latest | grep -E browser_download_url | grep -E linux.tar | cut -d \" -f 4 )
+sudo wget -t 0 -T 15 -P /opt -O Ombi.tar.gz $( curl -s https://api.github.com/repos/tidusjar/Ombi/releases/latest | grep -E browser_download_url | grep -E linux.tar | cut -d \" -f 4 )
 sudo mkdir /opt/ombi
-sudo unzip /opt/Ombi.zip -d /opt/ombi
+tar xvfz /opt/Ombi.tar.gz -C /opt/ombi
+#sudo unzip /opt/Ombi.zip -d /opt/ombi
 sudo rm -rf /opt/Ombi.zip
 sudo chown -R ombi:ombi /opt/ombi
 sudo echo "[Unit]
