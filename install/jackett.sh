@@ -3,7 +3,7 @@ wget -t 0 -T 15 -P /opt $( curl -s https://api.github.com/repos/Jackett/Jackett/
 sudo tar -xvf /opt/Jackett.Binaries.Mono.tar.gz -C /opt
 sudo rm /opt/Jackett.Binaries.Mono.tar.gz
 sudo chown -R jackett:jackett /opt/Jackett
-echo "[Unit]
+sudo echo "[Unit]
 Description=Jackett Daemon
 After=network.target
 
