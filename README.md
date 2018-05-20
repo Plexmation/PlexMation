@@ -1,6 +1,6 @@
 # Plexmation
 
-[reddit](https://www.reddit.com/r/Plexmation/)
+[Plexmation Reddit](https://www.reddit.com/r/Plexmation/)
 
 ### So what is plexmation?
 A simple script for setting up your automated Plex home media server
