@@ -18,10 +18,10 @@ Download clients
 
 wget:
 ```
-bash <(wget -O- -q  https://raw.githubusercontent.com/plexmation/plexmation/master/setup.sh)
+sudo bash <(wget -O- -q  https://raw.githubusercontent.com/plexmation/plexmation/master/setup.sh)
 ```
 
 curl:
 ```
-bash <(curl -s  https://raw.githubusercontent.com/plexmation/plexmation/master/setup.sh)
+sudo bash <(curl -s  https://raw.githubusercontent.com/plexmation/plexmation/master/setup.sh)
 ```
