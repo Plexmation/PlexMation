@@ -7,15 +7,15 @@ if [[ "$EUID" -ne 0 ]]; then
 fi
 
 sudo chmod +x install/*.sh
-sudo ./install/update.sh
-sudo ./install/prep.sh
-sudo ./install/update.sh
-sudo ./install/plex.sh
-sudo ./install/sonarr.sh
-sudo ./install/radarr.sh
-sudo ./install/plexpy.sh
-sudo ./install/ombi.sh
-sudo ./install/jackett.sh
-sudo ./install/mono-update.sh
-sudo ./install/nginx.sh
-sudo ./install/update.sh
+sudo ./scripts/install/update.sh
+sudo ./scripts/install/prep.sh
+sudo ./scripts/install/update.sh
+sudo ./scripts/install/plex.sh
+sudo ./scripts/install/sonarr.sh
+sudo ./scripts/install/radarr.sh
+sudo ./scripts/install/plexpy.sh
+sudo ./scripts/install/ombi.sh
+sudo ./scripts/install/jackett.sh
+sudo ./scripts/install/mono-update.sh
+sudo ./scripts/install/nginx.sh
+sudo ./scripts/install/update.sh
