@@ -6,7 +6,7 @@ if [[ "$EUID" -ne 0 ]]; then
 	exit 1
 fi
 
-sudo chmod +x install/*.sh
+sudo chmod +x scripts/install/*.sh
 sudo ./scripts/install/update.sh
 sudo ./scripts/install/prep.sh
 sudo ./scripts/install/update.sh
