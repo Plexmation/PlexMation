@@ -1,4 +1,4 @@
-sudo adduser --disabled-password --system --gecos "Radarr Service" --group radarr
+sudo adduser --disabled-password --system --home /opt/ProgramData/radarr --gecos "Radarr Service" --group radarr
 sudo apt update -y && sudo apt install -y libmono-cil-dev curl mediainfo
 #cd /opt
 wget -t 0 -T 15 -P /opt $( curl -s https://api.github.com/repos/Radarr/Radarr/releases | grep linux.tar.gz | grep browser_download_url | head -1 | cut -d \" -f 4 )
