@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo adduser --disabled-password --system --home /opt/ProgramData/sonarr --gecos "Sonarr Service" --group sonarr
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC
 echo "deb http://apt.sonarr.tv/ master main" | sudo tee /etc/apt/sources.list.d/sonarr.list

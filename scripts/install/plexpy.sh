@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo adduser --disabled-password --system --no-create-home --gecos "PlexPy Service"  --group plexpy
 sudo git clone https://github.com/JonnyWong16/plexpy.git /opt/plexpy
 sudo chown -R plexpy:plexpy /opt/plexpy

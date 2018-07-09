@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo adduser --disabled-password --system --home /opt/ProgramData/radarr --gecos "Radarr Service" --group radarr
 sudo apt update -y && sudo apt install -y libmono-cil-dev curl mediainfo
 #cd /opt

@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo adduser --disabled-password --system --home /opt/ProgramData/jackett --gecos "Jackett Service" --group jackett
 wget -t 0 -T 15 -P /opt $( curl -s https://api.github.com/repos/Jackett/Jackett/releases/latest | grep browser_download_url | head -1 | cut -d \" -f 4 )
 sudo tar -xvf /opt/Jackett.Binaries.Mono.tar.gz -C /opt
