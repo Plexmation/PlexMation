@@ -5,4 +5,3 @@ if [ $sshport != 22];
 else
 ssh-copy-id $user@$servername:$sshport;
 fi
-#test
