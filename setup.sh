@@ -13,7 +13,8 @@ sudo ./scripts/install/update.sh
 sudo ./scripts/install/plex.sh
 sudo ./scripts/install/sonarr.sh
 sudo ./scripts/install/radarr.sh
-sudo ./scripts/install/plexpy.sh
+#to be replaced with tautulli
+#sudo ./scripts/install/plexpy.sh
 sudo ./scripts/install/ombi.sh
 sudo ./scripts/install/jackett.sh
 sudo ./scripts/install/mono-update.sh
