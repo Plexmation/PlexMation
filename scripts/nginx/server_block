@@ -2,7 +2,7 @@ server {
   listen 81;
   root /var/www/plexmation;
   #index index.php
-  server_name 192.168.0.42;
+  server_name $hostname;
 
   location / {
     # First attempt to serve request as file, then
@@ -11,6 +11,6 @@ server {
   }
 
   #locations
-  
+
 
 }
