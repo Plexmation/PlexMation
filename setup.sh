@@ -15,6 +15,8 @@ sudo ./scripts/install/sonarr.sh
 sudo ./scripts/install/radarr.sh
 <<<<<<< HEAD
 =======
+#to be replaced with tautulli
+>>>>>>> development
 #sudo ./scripts/install/plexpy.sh
 sudo ./scripts/install/ombi.sh
 sudo ./scripts/install/jackett.sh
