@@ -13,6 +13,8 @@ sudo ./scripts/install/update.sh
 sudo ./scripts/install/plex.sh
 sudo ./scripts/install/sonarr.sh
 sudo ./scripts/install/radarr.sh
+<<<<<<< HEAD
+=======
 #sudo ./scripts/install/plexpy.sh
 sudo ./scripts/install/ombi.sh
 sudo ./scripts/install/jackett.sh
