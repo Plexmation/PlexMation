@@ -17,6 +17,9 @@ sudo ./scripts/install/radarr.sh
 #to be replaced with tautulli
 #sudo ./scripts/install/plexpy.sh
 
+#plex removed plugins
+#sudo ./scripts/install/webtools.sh
+
 sudo ./scripts/install/ombi.sh
 sudo ./scripts/install/jackett.sh
 sudo ./scripts/install/mono-update.sh
