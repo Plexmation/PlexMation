@@ -4,7 +4,8 @@
 sudo apt-get install python python-setuptools tzdata
 
 #adding user and group
-sudo addgroup tautulli && sudo adduser --system --no-create-home tautulli --ingroup tautulli
+sudo addgroup tautulli
+sudo adduser --system --no-create-home tautulli --ingroup tautulli
 
 #cloning repo
 cd /opt
