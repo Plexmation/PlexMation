@@ -13,6 +13,7 @@ sudo git clone https://github.com/Tautulli/Tautulli.git
 #permissions
 sudo chown tautulli:tautulli -R /opt/Tautulli
 
+mkdir /opt/ProgramData/Tautulli
 #creating daemon scripts
 echo echo "[Unit]
 Description=Tautulli - Stats for Plex Media Server usage
@@ -20,7 +21,7 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
-ExecStart=/opt/Tautulli/Tautulli.py --config /opt/Tautulli/config.ini --datadir /opt/Tautulli --quiet --daemon --nolaunch
+ExecStart=/opt/Tautulli/Tautulli.py --config /opt/ProgramData/Tautulli/config.ini --datadir /opt/Tautulli --quiet --daemon --nolaunch
 GuessMainPID=no
 Type=forking
 User=tautulli
