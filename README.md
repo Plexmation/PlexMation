@@ -3,16 +3,13 @@
 [Plexmation Reddit](https://www.reddit.com/r/Plexmation/)
 
 ### So what is plexmation?
-A simple script for setting up your automated Plex home media server
-with plenty of functionality coming down the line.
-
-What started off as a script for my own use, has turned into something that everyone can use instead of copy-pasting commands into terminal
+My install script for home automation, everything is run as it's individual systemctl service
 
 ### Supported Operating Systems
-Debian and Ubuntu 16.04
+Debian, Ubuntu 16.04, Ubuntu 18.04
 
 ### So What is coming?
-Download clients
+Download clients, a dashboard and higher tier analytics for both hardware and home automation
 
 ### Quickstart
 
