@@ -34,3 +34,9 @@ WantedBy=multi-user.target"> /lib/systemd/system/tautulli.service
 
 sudo systemctl enable tautulli
 sudo systemctl start tautulli
+
+#config location is in /opt/ProgramData/Tautulli
+#for nginx reverse proxy: use module.conf in sites-availabe
+#change http_root in config.ini for tautulli
+#dont forget to clear nginx cache with: rm -rf /var/cache/nginx/*
+#if it is default location
