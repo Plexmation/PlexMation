@@ -19,7 +19,7 @@ sudo ./scripts/install/radarr.sh
 
 sudo ./scripts/install/tautulli.sh
 
-#plex removed plugins
+#irrelevent
 #sudo ./scripts/install/webtools.sh
 
 sudo ./scripts/install/ombi.sh
