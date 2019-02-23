@@ -13,6 +13,7 @@ sudo git clone https://github.com/Tautulli/Tautulli.git
 
 #permissions
 sudo chown tautulli:tautulli -R /opt/Tautulli
+sudo chown tautulli:tautulli -R /opt/ProgramData/Tautulli
 
 mkdir /opt/ProgramData/Tautulli
 #creating daemon scripts
