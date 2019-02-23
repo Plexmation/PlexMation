@@ -17,6 +17,8 @@ sudo ./scripts/install/radarr.sh
 #to be replaced with tautulli
 #sudo ./scripts/install/plexpy.sh
 
+sudo ./scripts/install/tautulli.sh
+
 #plex removed plugins
 #sudo ./scripts/install/webtools.sh
 
